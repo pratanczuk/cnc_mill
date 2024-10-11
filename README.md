@@ -3,7 +3,7 @@ Home made cnc milling machine
 Videos from tests:
 
 - https://www.youtube.com/watch?v=3Vvp7R3YsTk
-- https://studio.youtube.com/video/EtHsFKGwShk
+- https://youtu.be/EtHsFKGwShk
 
 [![Watch the video](https://youtu.be/EtHsFKGwShk)](https://youtu.be/EtHsFKGwShk)
 
