@@ -117,55 +117,6 @@ The Kress 1050 FME spindle offers sufficient power for milling aluminum and stee
 
 An HP terminal serves as the controller, running CNC software to interpret G-code and control the machine.
 
-## Budget Breakdown
-
-Item
-
-Price (€)
-
-Base (WS15 Drill)
-
-50
-
-Cross Table
-
-150
-
-NEMA 23 Stepper Motors
-
-70
-
-CNC Controller Kit (TB6600)
-
-45
-
-Kress 1050 FME Spindle
-
-60
-
-Aluminum Column & Z-Axis Parts
-
-80
-
-Pulleys and Belts
-
-25
-
-Control Box
-
-20
-
-HP Terminal & Monitor
-
-30
-
-Miscellaneous Parts
-
-≈70
-
-**Total**
-
-**€500**
 
 ## How to Replicate
 
