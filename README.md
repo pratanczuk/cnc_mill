@@ -1,9 +1,206 @@
-# cnc_mill
-Home made cnc milling machine
-Videos from tests:
+# Home-Made CNC Milling Machine
 
-- https://www.youtube.com/watch?v=3Vvp7R3YsTk
-- https://youtu.be/EtHsFKGwShk
+## Introduction
+
+This project showcases the design and construction of a home-made CNC milling machine built from scratch. The goal was to create a compact, powerful, and cost-effective CNC machine capable of milling aluminum and handling steel at low speeds.
+
+## Project Videos
+
+-   [Test Video 1](https://www.youtube.com/watch?v=3Vvp7R3YsTk)
+-   [Test Video 2](https://youtu.be/EtHsFKGwShk)
+
+## Requirements
+
+-   **Size**: Approximately 50cm x 50cm x 50cm
+-   **Power**: Capable of milling aluminum and handling steel at low speeds
+-   **Control**: CNC capabilities
+-   **Budget**: Around €500
+
+## Components
+
+### Mechanical Components
+
+-   **Base**: Used base from an old Polish WS15 drill
+    
+    -   Robust and heavy with M14 mount holes and T-slot
+    -   Weight: ~30 kg
+    -   **Price**: €50
+    
+-   **Cross Table**
+    
+    -   Brand new from China
+    -   Travel Range: X = 100 mm, Y = 201 mm
+    -   Weight: 36 kg
+    -   **Price**: €150
+    
+-   **Column and Z-Axis Assembly**
+    
+    -   Aluminum column PA6 80x80x450 mm
+    -   Plates for Z-axis
+    -   Lead screw 16x4 mm
+    -   **Price**: €80
+    
+-   **Pulleys and Belts**
+    
+    -   2x Pulleys 14 5M 15
+    -   2x Pulleys 28 5M 15
+    -   Belt HTD 450 5M 15
+    -   Belt HTD 375 5M 15
+    -   **Price**: €25
+    
+-   **Miscellaneous Mechanical Parts**
+    
+    -   Screws, linear rods, bushings
+    -   **Price**: Included in miscellaneous expenses
+
+### Electrical Components
+
+-   **Stepper Motors**
+    
+    -   2x NEMA 23, 3 Nm (new)
+        -   **Price**: €60
+    -   1x NEMA 23, 1.8 Nm (used)
+        -   **Price**: €10
+    
+-   **CNC Controller Kit**
+    
+    -   3-axis stepper driver controller TB6600
+    -   **Price**: €45
+    
+-   **Spindle**
+    
+    -   Used Kress 1050 FME
+    -   **Price**: €60
+    
+-   **Power Supply**
+    
+    -   24V, 4.2A
+    -   **Price**: Included in miscellaneous expenses
+    
+-   **Control Box**
+    
+    -   Metal case with 2 DIN rails, 314x396x130 mm
+    -   **Price**: €20
+    
+-   **Computer and Monitor**
+    
+    -   Used HP terminal
+        -   512 MB RAM, 1.2 GHz CPU
+        -   USB stick as hard drive
+    -   LCD Screen 17"
+    -   **Price**: €30
+    
+-   **Miscellaneous Electrical Parts**
+    
+    -   Buttons, cables
+    -   **Price**: Included in miscellaneous expenses
+
+## Construction Overview
+
+### Base and Frame
+
+The foundation of the milling machine is the heavy-duty base from a WS15 drill, providing stability and rigidity. The aluminum column supports the Z-axis and spindle, ensuring precision during operation.
+
+### Motion System
+
+The X and Y axes utilize the cross table from China, driven by NEMA 23 stepper motors connected via pulleys and belts. The Z-axis is assembled using custom plates, a lead screw, and is powered by another NEMA 23 stepper motor.
+
+### Electronics and Control
+
+The stepper motors are controlled by a TB6600 3-axis driver, housed in a metal case with DIN rails for organization. The system is powered by a 24V power supply.
+
+### Spindle
+
+The Kress 1050 FME spindle offers sufficient power for milling aluminum and steel at low speeds.
+
+### Computer and Software
+
+An HP terminal serves as the controller, running CNC software to interpret G-code and control the machine.
+
+## Budget Breakdown
+
+Item
+
+Price (€)
+
+Base (WS15 Drill)
+
+50
+
+Cross Table
+
+150
+
+NEMA 23 Stepper Motors
+
+70
+
+CNC Controller Kit (TB6600)
+
+45
+
+Kress 1050 FME Spindle
+
+60
+
+Aluminum Column & Z-Axis Parts
+
+80
+
+Pulleys and Belts
+
+25
+
+Control Box
+
+20
+
+HP Terminal & Monitor
+
+30
+
+Miscellaneous Parts
+
+≈70
+
+**Total**
+
+**€500**
+
+## How to Replicate
+
+1.  **Gather Components**: Refer to the components list to acquire all necessary parts.
+2.  **Assemble Mechanical Parts**: Build the base, frame, and motion system.
+    
+3.  **Set Up Electronics**: Install the stepper motors, driver, and power supply.
+    
+4.  **Install Software**: Configure the HP terminal with CNC control software (e.g., LinuxCNC).
+    
+5.  **Calibration**: Calibrate the axes and spindle to ensure precision.
+    
+6.  **Testing**: Run test programs to verify functionality.
+    
+
+## Resources
+
+-   **Videos of the Machine in Action**
+    -   [Test Video 1](https://www.youtube.com/watch?v=3Vvp7R3YsTk)
+    -   [Test Video 2](https://youtu.be/EtHsFKGwShk)
+
+## Future Improvements
+
+-   Upgrading the spindle for higher torque
+-   Implementing limit switches for safety
+-   Enhancing the control software interface
+-   Adding an enclosure for dust and noise reduction
+
+## License
+
+This project is open-source and available under the MIT License.
+
+## Contact
+
+For questions or contributions, please open an issue or submit a pull request.
 
 [![Watch the video](https://youtu.be/EtHsFKGwShk)](https://youtu.be/EtHsFKGwShk)
 
